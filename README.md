@@ -13,13 +13,13 @@ Lung-PNet was developed in a retrospective study to automatically segment pGGN l
 pip install requirements.txt
 
 ## for self supervised pretraining
-python train_self_supervised_ct.py
+python self_supervised_learning/train_self_supervised_ct.py
 
 ## for pGGN level segementation
-python train_segmentation_pggn.py
+python segmentation/train_segmentation_pggn.py
 
 ## for pGGN classification
-python train_classification_pggn.py
+python classification/train_classification_pggn.py
 
 ## Citing Lung-PNet
 if you find this repository useful, please consider giving a star :star: and citation:
