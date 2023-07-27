@@ -22,4 +22,4 @@ python segmentation/train_segmentation_pggn.py
 python classification/train_classification_pggn.py
 
 ## Citing Lung-PNet
-if you find this repository useful, please consider giving a star :star: and citation:
+if you find this repository useful, please consider giving a star :star: and citation: Qi K, Wang K, Wang X, et al. Lung-PNet: An Automated Deep Learning Model for the Diagnosis of Invasive Adenocarcinoma in Pure Ground-Glass Nodules on Chest CT. AJR 2023 Jul 26 [published online]. Accepted manuscript. doi:10.2214/AJR.23.29674
