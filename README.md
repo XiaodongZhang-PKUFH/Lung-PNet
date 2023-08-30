@@ -13,13 +13,27 @@ Lung-PNet was developed in a retrospective study to automatically segment pGGN l
 pip install requirements.txt
 
 ## for self supervised pretraining
+```
 python self_supervised_learning/train_self_supervised_ct.py
-
+```
 ## for pGGN level segementation
+```
 python segmentation/train_segmentation_pggn.py
-
+```
 ## for pGGN classification
+```
 python classification/train_classification_pggn.py
-
+```
 ## Citing Lung-PNet
 if you find this repository useful, please consider giving a star :star: and citation: Qi K, Wang K, Wang X, et al. Lung-PNet: An Automated Deep Learning Model for the Diagnosis of Invasive Adenocarcinoma in Pure Ground-Glass Nodules on Chest CT. AJR 2023 Jul 26 [published online]. Accepted manuscript. doi:10.2214/AJR.23.29674
+```
+@article{doi:10.2214/AJR.23.29674,
+author = {Qi, Kang and Wang, Kexin and Wang, Xiaoying and Zhang, Yudong and Lin, Gang and Zhang, Xining and Liu, Haibo and Huang, Weiming and Wu, Jingyun and Zhao, Kai and Liu, Jing and Li, Jian and Zhang, Xiaodong},
+title = {Lung-PNet: An Automated Deep Learning Model for the Diagnosis of Invasive Adenocarcinoma in Pure Ground-Glass Nodules on Chest CT},
+journal = {American Journal of Roentgenology},
+volume = {0},
+number = {ja},
+pages = {null},
+year = {2023}
+}
+```
