@@ -27,13 +27,23 @@ python classification/train_classification_pggn.py
 ## Citing Lung-PNet
 if you find this repository useful, please consider giving a star :star: and citation: Qi K, Wang K, Wang X, et al. Lung-PNet: An Automated Deep Learning Model for the Diagnosis of Invasive Adenocarcinoma in Pure Ground-Glass Nodules on Chest CT. AJR 2023 Jul 26 [published online]. Accepted manuscript. doi:10.2214/AJR.23.29674
 ```
-@article{doi:10.2214/AJR.23.29674,
-author = {Qi, Kang and Wang, Kexin and Wang, Xiaoying and Zhang, Yudong and Lin, Gang and Zhang, Xining and Liu, Haibo and Huang, Weiming and Wu, Jingyun and Zhao, Kai and Liu, Jing and Li, Jian and Zhang, Xiaodong},
-title = {Lung-PNet: An Automated Deep Learning Model for the Diagnosis of Invasive Adenocarcinoma in Pure Ground-Glass Nodules on Chest CT},
-journal = {American Journal of Roentgenology},
-volume = {0},
-number = {ja},
-pages = {null},
-year = {2023}
+@ARTICLE{doi:10.2214/AJR.23.29674,
+  title     = "{Lung-PNet}: An automated deep learning model for the diagnosis
+               of invasive adenocarcinoma in pure ground-glass nodules on chest
+               {CT}",
+  author    = "Qi, Kang and Wang, Kexin and Wang, Xiaoying and Zhang, Yu-Dong
+               and Lin, Gang and Zhang, Xining and Liu, Haibo and Huang,
+               Weiming and Wu, Jingyun and Zhao, Kai and Liu, Jing and Li, Jian
+               and Zhang, Xiaodong",
+  journal   = "AJR Am. J. Roentgenol.",
+  publisher = "American Roentgen Ray Society",
+  volume    =  222,
+  number    =  1,
+  pages     = "e2329674",
+  month     =  jan,
+  year      =  2024,
+  keywords  = "CT; deep learning; invasive adenocarcinoma; pure ground-glass
+               nodule",
+  language  = "en"
 }
 ```
